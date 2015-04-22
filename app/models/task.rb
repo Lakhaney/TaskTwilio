@@ -27,9 +27,9 @@ class Task < ActiveRecord::Base
   def send_text_message
     number_to_send_to = recipient.phone
 
-    twilio_sid = ENV["TWILIO_ACCOUNT_SID"]
-    twilio_token = ENV["TWILIO_AUTH_TOKEN"]
-    twilio_phone_number = ENV["TWILIO_PHONE_NUMBER"]
+    twilio_sid = ENV["ACc8fbcd43419fe2b20eeaaad8306c51d2"]
+    twilio_token = ENV["177278c13aaaed27e207a674c4d88e50"]
+    twilio_phone_number = ENV["+18623777773"]
 
     @twilio_client = Twilio::REST::Client.new twilio_sid, twilio_token
 
