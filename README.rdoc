@@ -1,27 +1,4 @@
-== README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+A User (a model) creates a Task (another model) and assigns it to a Recipient (another model). The User schedules the text notification for the Task and identifies a specific Recipient. I used Associations in each of the Rails Models to establish the relationships between the User, the Task and the Recipient.
 
 
 Please feel free to use a different markup language if you do not plan to run
